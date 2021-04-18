@@ -1,18 +1,18 @@
 
-var container = document.querySelector(".container");
-container.style.background = "green";
-container.style.width = "660px";
-container.style.height = "660px";
-container.style.paddingLeft = "60px";
-container.style.paddingBottom = "60px";
-container.style.margin = "0 auto";
-container.style.display = "flex";
-container.style.flexWrap = "wrap";
+var desk = document.querySelector(".desk");
+desk.style.background = "green";
+desk.style.width = "660px";
+desk.style.height = "660px";
+desk.style.paddingLeft = "60px";
+desk.style.paddingBottom = "60px";
+desk.style.margin = "0 auto";
+desk.style.display = "flex";
+desk.style.flexWrap = "wrap";
 
 function my_initiation() {
     var cell = document.createElement("div");
     cell.className = "cell";
-    container.append(cell);
+    desk.append(cell);
     cell.style.width = "60px";
     cell.style.height = "60px";
     cell.style.margin = "0px";
